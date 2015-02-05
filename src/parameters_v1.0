@@ -1,0 +1,7 @@
+alpha=0.01
+threshold=10
+histogram=true
+filename=QKI_SRR048972
+namebed=QKI_SRR048972
+fbackground=example/GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10
+fclusters=example/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed
