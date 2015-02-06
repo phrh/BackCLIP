@@ -3,6 +3,7 @@ BackCLIP
 
 Tools to identify background presence in PAR-CLIP datasets
 
+TODO
 
 ----------------
 #### Requirements
@@ -29,7 +30,7 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 		- threshold=to define if the amount of common background is significant (default (maximum score)/2)
 		- histogram=give as output histogram of the intersection scores (default false)
 		- fbackground=(.BED)file background and corresponding scores (see _src/example/[GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10](https://github.com/phrh/BackCLIP/blob/master/src/example/GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10)_. Nevertheless, the complete version of the background is _CommonBackground/[Background_49datsets.bed](https://github.com/phrh/BackCLIP/blob/master/CommonBackground/Background_49datsets.bed)_)
-		- fclusters=(.BED)file with clusters detected from PAR-CLIP dataset (see src/example/[QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed](https://github.com/phrh/BackCLIP/blob/master/src/example/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed))
+		- fclusters=(.BED)file with clusters detected from PAR-CLIP dataset (see _src/example/[QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed](https://github.com/phrh/BackCLIP/blob/master/src/example/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed)_)
 		- filename=in case histogram is true, the name of the output file (default fileclusters.histbackground)
 		- namebed=name bed with set of common background found in fileclusters
 		
@@ -41,6 +42,9 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 
 ----------------
 #### Suppementary information
+
+
+TODO
 
 ----------------
 
