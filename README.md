@@ -32,7 +32,16 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 		- fclusters=(.BED)file with clusters detected from PAR-CLIP dataset (see src/example/[QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed](https://github.com/phrh/BackCLIP/blob/master/src/example/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed))
 		- filename=in case histogram is true, the name of the output file (default fileclusters.histbackground)
 		- namebed=name bed with set of common background found in fileclusters
-	
+		
+		
+	To run, just write on shell
+
+	_python backclip_v1.0.py parametersfilename_
+
+
+----------------
+#### Suppementary information
+
 ----------------
 
 #### License
