@@ -23,12 +23,12 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 	- histogram score distribution in the intersection file
 	- common background in a dataset (bed file)
 	
-- The input arguments is: 
+- The input argument is: 
 	- parameters file name  (see src/[parameters_v1.0](https://github.com/phrh/BackCLIP/blob/master/src/parameters_v1.0)): this file contains the following parameters :
 		- alpha=significance level (default value 0.01)
 		- threshold=to define if the amount of common background is significant (default (maximum score)/2)
 		- histogram=give as output histogram of the intersection scores (default false)
-		- fbackground=(.BED)file background and corresponding scores (see src/example/[GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10](https://github.com/phrh/BackCLIP/blob/master/src/example/GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10). Nevertheless, the complete version of the background is )
+		- fbackground=(.BED)file background and corresponding scores (see src/example/[GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10](https://github.com/phrh/BackCLIP/blob/master/src/example/GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10). Nevertheless, the complete version of the background is CommonBackground/[Background_49datsets.bed](https://github.com/phrh/BackCLIP/blob/master/CommonBackground/Background_49datsets.bed))
 		- fclusters=(.BED)file with clusters detected from PAR-CLIP dataset (see src/example/[QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed](https://github.com/phrh/BackCLIP/blob/master/src/example/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed))
 		- filename=in case histogram is true, the name of the output file (default fileclusters.histbackground)
 		- namebed=name bed with set of common background found in fileclusters
