@@ -8,7 +8,7 @@ Tools to identify background presence in PAR-CLIP datasets
 #### Requirements
 
 - Python 2.7 and above
-- Python  Packages (To install plese use: pip install -r /path/to/[requirements.txt](https://github.com/phrh/BackCLIP/blob/master/requirements.txt))
+- Python  Packages (To install plese (1) download  [requirements.txt](https://github.com/phrh/BackCLIP/blob/master/requirements.txt) and (2) use the command  pip install -r /path/to/requirements.txt )
 
 ----------------
 #### Install
@@ -18,18 +18,17 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 ----------------
 #### Usage
 
-
-- **backclip_v1.0.py**.  This python program identifies the presence of common background in a PAR-CLIP dataset
-- shell script will search all the restriction sites from the input file (patternfilename) in every genome from the input file (genomefilename). As a result the script provides the following files:
- 
-	- ALL.aligned.txt, ALL.failed.txt, ALL.processed.txt,  ALL.suppressed.txt - each file with a table summarizing bowtie output(reads aligned, failed, processed and suppressed) for each genome.
-	- ALL.count.txt - contains a table with the number of restriciton sites found in each genome
-	- ALL.size.txt - contains a table with the size of each genome
-
-	The input arguments are: 
-	- genomefilename: name of file with table with two columns (1) species code and (2) link to whole genome fasta file 
-	- 
+- **backclip_v1.0.py**.  This python program identifies the presence of common background in a PAR-CLIP dataset. As a result provides:
+	- confidence interval for the mean distribution 
+	- histogram score distribution in the intersection file
+	- common background in a dataset (bed file)
 	
+The input arguments is: 
+	- parameters file name: this file contains the following parameters:
+		-alpha=significance level (default value 0.01)
+		-threshold=to define if the amount of common background is significant (default (maximum score)/2)
+	
+----------------
 
 #### License
 
