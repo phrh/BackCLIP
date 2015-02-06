@@ -23,10 +23,15 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 	- histogram score distribution in the intersection file
 	- common background in a dataset (bed file)
 	
-The input arguments is: 
+- The input arguments is: 
 	- parameters file name: this file contains the following parameters:
-		-alpha=significance level (default value 0.01)
-		-threshold=to define if the amount of common background is significant (default (maximum score)/2)
+		- alpha=significance level (default value 0.01)
+		- threshold=to define if the amount of common background is significant (default (maximum score)/2)
+		- histogram=give as output histogram of the intersection scores (default false)
+		- fbackground=(.BED)file background and corresponding scores
+		- fclusters=(.BED)file with clusters detected from PAR-CLIP dataset
+		- filename=in case histogram is true, the name of the output file (default fileclusters.histbackground)
+		- namebed=name bed with set of common background found in fileclusters
 	
 ----------------
 
