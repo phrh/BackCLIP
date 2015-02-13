@@ -1,8 +1,8 @@
 # count_motif_occurrences - (extra) if you have information regarding the motif, this program counts
 #				    the motif occurrences in the input bed
 #
-# Created by Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra, Santiago Herrera on 5 February 2015
-# Copyright (c) 2015 Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra, Santiago Herrera. All rights reserved.
+# Created by Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra on 5 February 2015
+# Copyright (c) 2015 Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra. All rights reserved.
 #
 #
 # count_motif_ocurrences is free software: you can redistribute it and/or modify
