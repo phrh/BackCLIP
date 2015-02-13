@@ -1,9 +1,24 @@
 BackCLIP
 ========
 
-Tools to identify background presence in PAR-CLIP datasets
+The PAR-CLIP protocol derives a transcriptome wide set of binding sites for RNA Binding Proteins. However,   non-specific RNA background remains. We propose a tool, BackCLIP, to identify the presence of common RNA background in a PAR-CLIP dataset. 
 
-TODO
+----------------
+### Content
+
+* Supplementary data
+* Requirements
+* Install
+* Usage
+* License
+
+----------------
+#### Supplementary data
+
+* File with specifics regarding the datasets _Data_Used_Background_Quantification.xls_
+* CommonBackground: _BackgroundTraining_19datasets.bed_ (Common background set used in the paper),  _Background_49datsets.bed_ (Common Background built on 49 datasets)
+
+
 
 ----------------
 #### Requirements
@@ -40,18 +55,11 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 	_python backclip_v1.0.py parametersfilename_
 
 
-----------------
-#### Suppementary information
-
-
-TODO
-
-----------------
 
 #### License
 
-Created by Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra on 5 February 2015
-Copyright (c) 2015 Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra. All rights reserved.
+Created by Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra, Santiago Herrera on 5 February 2015
+Copyright (c) 2015 Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra, Santiago Herrera. All rights reserved.
 
 BackCLIP is free software: you can redistribute it and/or modify  it under the terms of the GNU General Public License as published by # the Free Software Foundation, version 2.
 
