@@ -11,13 +11,13 @@ The PAR-CLIP protocol derives a transcriptome wide set of binding sites for RNA 
 * Install
 * Usage
 * License
+* Extra
 
 ----------------
 #### Supplementary data
 
-* File with specifics regarding the datasets _Data_Used_Background_Quantification.xls_
+* Details for Background Initial Set and Additional Results [_Supplementary_Information_BACKCLIP.doc_](https://github.com/phrh/BackCLIP/blob/master/SupplementaryData/Supplementary_%20Information_BACKCLIP.doc)
 * CommonBackground: _BackgroundTraining_19datasets.bed_ (Common background set used in the paper),  _Background_49datsets.bed_ (Common Background built on 49 datasets)
-
 
 
 ----------------
@@ -54,8 +54,13 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 
 	_python backclip_v1.0.py parametersfilename_
 
+----------------
+#### Extra
 
+- ClusterDetection (CD_Bg.jar)
+- _count_motif_occurrences.py_
 
+----------------
 #### License
 
 Created by Paula H. Reyes-Herrera, Cesar A. Speck Hernandez, Carlos Sierra, Santiago Herrera on 5 February 2015
