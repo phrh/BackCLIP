@@ -57,8 +57,8 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 ----------------
 #### Extra
 
-- ClusterDetection (CD_Bg.jar)
-- _count_motif_occurrences.py_
+- ClusterDetection (_CD_Bg.jar_ ). This program obtains a set of clusters from a sam format file. Usage: java -jar _CD_Bg.jar_ Setupini
+- _count_motif_occurrences.py_. This program finds the number of motif occurrences in a bed format file. Usage: python count_motif_occurrences.py motif filebed outfile
 
 ----------------
 #### License
