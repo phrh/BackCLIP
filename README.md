@@ -17,7 +17,7 @@ The PAR-CLIP protocol derives a transcriptome wide set of binding sites for RNA 
 #### Supplementary data
 
 * Details for Background Initial Set and Additional Results [_Supplementary_Information_BACKCLIP.doc_](https://github.com/phrh/BackCLIP/blob/master/SupplementaryData/Supplementary_%20Information_BACKCLIP.doc)
-* CommonBackground: _BackgroundTraining_19datasets.bed_ (Common background set used in the paper),  _Background_49datsets.bed_ (Common Background built on 49 datasets)
+* CommonBackground: _BackgroundTraining_19datasets.bed_ (Common background set used in the paper),  _Background_49datsets.bed_ (Common Background built on 49 datasets).The Common Background set built with a large and diverse datasets results in a robust data set. 
 
 
 ----------------
