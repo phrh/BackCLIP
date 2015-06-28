@@ -4,5 +4,5 @@ histogram=true
 filename=QKI_SRR048972
 namebed=QKI_SRR048972
 remove=true
-fbackground=/home/paula/Dropbox/research/RBP/background/BackgroundRBP/bedfiles_examples/GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10
-fclusters=/home/paula/Dropbox/research/RBP/background/BackgroundRBP/Scripts/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed
+fbackground=example/GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10
+fclusters=example/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed
