@@ -1,7 +1,8 @@
 BackCLIP
 ========
 
-The PAR-CLIP protocol derives a transcriptome wide set of binding sites for RNA Binding Proteins. However,   non-specific RNA background remains. We propose a tool, BackCLIP, to identify the presence of common RNA background in a PAR-CLIP dataset. 
+The PAR-CLIP protocol derives a transcriptome wide set of binding sites for RNA Binding Proteins. However,   non-specific RNA background remains. We propose a tool, BackCLIP, to identify the presence of common RNA background in a PAR-CLIP dataset.  We built a common background set where each element has a score that reflects its presence in
+several PAR-CLIP datasets. We present a tool that uses this score to identify the amount of common backgrounds present in a PAR-CLIP dataset, and we provide the user the option to use or remove it.
 
 ----------------
 ### Content
@@ -35,16 +36,18 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 ----------------
 #### Usage
 
-- **backclip_v1.0.py**.  This python program identifies the presence of common background in a PAR-CLIP dataset. As a result provides:
-	- confidence interval for the mean distribution 
+- **backclip_v2.1.py**.  This python program identifies the presence of common background in a PAR-CLIP dataset. As a result provides:
+	- confidence interval for proportion of sites in the intersection with a score higher than the threshold 
 	- histogram score distribution in the intersection file
 	- common background in a dataset (bed file)
+	- dataset without the sites in the intersection that have a score higher than the threshold
 	
 - The input argument is: 
 	- parameters file name  (see _src/[parameters_v1.0](https://github.com/phrh/BackCLIP/blob/master/src/parameters_v1.0)_): this file contains the following parameters :
 		- alpha=significance level (default value 0.01)
 		- threshold=to define if the amount of common background is significant (default (maximum score)/2)
 		- histogram=give as output histogram of the intersection scores (default false)
+		- remove = give as output a modified dataset. We removed sites from the intersection (score > threshold) 	
 		- fbackground=(.BED)file background and corresponding scores (see _src/example/[GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10](https://github.com/phrh/BackCLIP/blob/master/src/example/GLOBALBACKGROUNDGROUPS.bed.sorted.delete.min10)_. Nevertheless, the complete version of the background is _CommonBackground/[Background_49datsets.bed](https://github.com/phrh/BackCLIP/blob/master/CommonBackground/Background_49datsets.bed)_)
 		- fclusters=(.BED)file with clusters detected from PAR-CLIP dataset (see _src/example/[QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed](https://github.com/phrh/BackCLIP/blob/master/src/example/QKI_SRR048972_Bowtie_Score_Cleanmin10_Prueba1.bed)_)
 		- filename=in case histogram is true, the name of the output file (default fileclusters.histbackground)
@@ -53,7 +56,7 @@ Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/
 		
 	To run, just write on shell
 
-	_python backclip_v1.0.py parametersfilename_
+	_python backclip_v2.1.py parametersfilename_
 
 ----------------
 #### Extra
