@@ -31,7 +31,7 @@ several PAR-CLIP datasets. We present a tool that uses this score to identify th
 ----------------
 #### Install
 
-Download python scritp (scr/[backclip_v1.0.py](https://github.com/phrh/BackCLIP/blob/master/src/backclip_v1.0.py))
+Download python scritp (scr/[backclip_v2.1.py](https://github.com/phrh/BackCLIP/blob/master/src/backclip_v2.1.py))
 
 ----------------
 #### Usage
