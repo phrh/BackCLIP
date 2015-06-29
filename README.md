@@ -17,7 +17,7 @@ several PAR-CLIP datasets. We present a tool that uses this score to identify th
 ----------------
 #### Supplementary data
 
-* Details for Background Initial Set and Additional Results [_Supplementary_Information_BACKCLIP.doc_](https://github.com/phrh/BackCLIP/blob/master/SupplementaryData/Supplementary_%20Information_BACKCLIP.doc)
+* Details for Background Initial Set and Additional Results [_Supplementary_Information_BACKCLIP_v2.doc_](https://github.com/phrh/BackCLIP/blob/master/SupplementaryData/Supplementary_%20Information_BACKCLIP_v2.doc)
 * CommonBackground: _BackgroundTraining_19datasets.bed_ (Common background set used in the paper),  _Background_49datsets.bed_ (Common Background built on 49 datasets).The Common Background set built with a large and diverse datasets results in a robust data set. 
 
 
