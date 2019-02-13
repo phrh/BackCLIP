@@ -28,7 +28,7 @@ This Git contains the software code and output results from [P.H Reyes-Herrera, 
 
 - Python 2.7 and above
 - Python  Packages (To install plese (1) download  [requirements.txt](https://github.com/phrh/BackCLIP/blob/master/requirements.txt) and (2) use the command  pip install -r /path/to/requirements.txt )
-- [BedTools](https://github.com/arq5x/bedtools2)
+- [BedTools](https://github.com/arq5x/bedtools2) (apt-get install bedtools)
 
 ----------------
 #### Install
