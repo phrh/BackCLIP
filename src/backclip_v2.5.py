@@ -291,6 +291,7 @@ def check_overlap(lines, chrom, startp, endp, score, strand, nline):
 
 
 '''
+This method takes input file and apply over it a cleaning process
 '''
 def process_inputfile(parameters):
 	[alpha, histogram, filename, smotif, motif, namebed, fbackground, fclusters, remove] = get_parameters(parameters)
